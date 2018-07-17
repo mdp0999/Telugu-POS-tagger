@@ -15,13 +15,21 @@ TRAIN_DATA = [ ('సొంతగడ్డపై తమ అభిమాన క్
 ('దీంతో అతడు ఎగిరి గంతేశాడు . అంతేకాదండోయ్ ఏ మ్యాచ్ చూసేందుకు అయితే అతనికి టిక్కెట్లు దక్కలేదో ఆ మ్యాచ్లో కీలక ఇన్నింగ్స్ ఆడి జట్టు విజయంలో కీలకపాత్ర పోషించాడు . ఇంతకీ అతగాడు ఎవరంటే . . హెన్రిచ్ క్లాసెన్ .',{'tags': ['N_NN','PR_PRP','V_VM_VNF','V_VM_VF','RD_PUNC','N_NNP','RD_PUNC','N_NN','V_VM_VNF','RP_RPD','PR_PRP','N_NN','V_VM_VNG','DM_DMQ','N_NN','JJ','N_NNP','V_VM_VNF','N_NN','N_NN','N_NN','V_VM_VF','RD_PUNC','N_NN','PR_PRP','PR_PRQ','RD_PUNC','RD_PUNC','N_NNP','N_NNP','RD_PUNC'] })]
 
 and sample output(రష్యా వేదికగా ఇటీవల ముగిసిన ఫిఫా ప్రపంచక పోటీల్లో ఫ్రాన్స్ విజేతగా నిలవడంలో కీలకపాత్ర పోషించాడు ఆ జట్టు ఆటగాడు ఎంబపె. ) for sentences is:
+
 రష్యా రష్యా NOUN N_NN
+
 వేదికగా వేదిక ADV RB
+
 ఇటీవల ఇటీవల PROPN N_NNP
+
 ముగిసిన ముగిసిన VERB V_VM_VNF
+
 ఫిఫా ఫిఫా PROPN N_NNP
+
 ప్రపంచక ప్రపంచక PROPN N_NNP
+
 పోటీల్లో పోటీ NOUN N_NN
+
 ఫ్రాన్స్ ఫ్రాన్స్ PROPN N_NNP
 విజేతగా విజేత ADV RB
 నిలవడంలో నిలవడం NOUN N_NN
