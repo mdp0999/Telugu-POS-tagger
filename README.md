@@ -1,7 +1,7 @@
 # Telugu-POS-tagger
 POS taggers are developed by modeling the morpho-syntactic structure of natural language text. I developed this POS tagger by using Rule based Parts of speech tagging in PERL. The rules are context-pattern rules or as regular expressions compiled into finite-state automata that are intersected with lexically ambiguous sentence representations. The purpose of this tagged output could be used for a variety of NLP (Natural Language Processing) applications, mainly used for word sense disambiguation (WSD) is retrieving Telugu documents
 
-This one is not my main POS tagger. It is preliminary work of understanding POS rules in Telugu. I developed another tool with tdil-dc tags. I developed this tagger for industrial purpose. So, I don't have access to share the complete pos tagger here.
+This one is not my main POS tagger. It is a preliminary work of understanding POS rules in Telugu. I developed another tool with tdil-dc tags. I developed this tagger for industrial purpose. So, I don't have access to share the complete pos tagger here.
 The final training data format for Nueral Networks is shown in below:
 TRAIN_DATA = [ ('సొంతగడ్డపై తమ అభిమాన క్రీడాకారులు మ్యాచ్ ఆడుతుంటే చూడాలని ఎవరికి మాత్రం ఉండదు చెప్పండి .',{'tags': ['N_NN','PR_PRF','JJ','N_NN','N_NN','V_VM_VNF','V_VM_VNF','PR_PRQ','N_NINF','V_VM_VINF','V_VM_VF','RD_PUNC'] }),
 
