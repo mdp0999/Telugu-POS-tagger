@@ -1,8 +1,9 @@
 # Telugu-POS-tagger
-POS taggers are developed by modeling the morpho-syntactic structure of natural language text. I developed this POS tagger by using Rule based Parts of speech tagging in PERL. The rules are context-pattern rules or as regular expressions compiled into finite-state automata that are intersected with lexically ambiguous sentence representations. The purpose of this tagged output could be used for a variety of NLP (Natural Language Processing) applications, mainly used for word sense disambiguation (WSD) is retrieving Telugu documents
 
-This one is not my main POS tagger. It is a preliminary work of understanding POS rules in Telugu. I developed another tool with tdil-dc tags. I developed this tagger for industrial purpose. So, I don't have access to share the complete pos tagger here.
+This rule based code in perl is not a main tagger. It's a preliminary work of understanding POS rules in Telugu. The final POS was tagger was developed in deeplearning with tdil-dc tags and human defined rules. I enlarged this tagger for industrial purpose. So, I don't have access to share complete code here.
+
 The final training data format for Nueral Networks is shown in below:
+
 TRAIN_DATA = [ ('సొంతగడ్డపై తమ అభిమాన క్రీడాకారులు మ్యాచ్ ఆడుతుంటే చూడాలని ఎవరికి మాత్రం ఉండదు చెప్పండి .',{'tags': ['N_NN','PR_PRF','JJ','N_NN','N_NN','V_VM_VNF','V_VM_VNF','PR_PRQ','N_NINF','V_VM_VINF','V_VM_VF','RD_PUNC'] }),
 
 ('కొద్ది వారాల క్రితం ఓ ఫస్ట్క్లాస్ క్రికెటర్ భారత్-దక్షిణాఫ్రికా మధ్య నాలుగో వన్డేను కుటుంబసభ్యులతో కలిసి ప్రత్యక్షంగా చూసేందుకు నిర్వాహకులను టికెట్లు అడిగాడు .',{'tags': ['QT_QTF','N_NN','N_NST','RD_PUNC','N_NNP','N_NNP','N_NNP','PSP','QT_QTO','V_VM_VNG','N_NN','V_VM_VNF','RB','V_VM_VNF','N_NN','N_NN','V_VM_VF','RD_PUNC'] }),
